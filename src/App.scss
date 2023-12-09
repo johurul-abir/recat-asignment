@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root{
+    --fb-bg:#f0f2f5 ;
+    --fb-border: 1px solid #dddfe2;
+    --fb-sc: #1877f2
+    --fb-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    --fb-gray: #606770;
+}
+*{
+    font-family:Roboto;
+}
+
+.bluer-border-red{
+    border: 1px solid red !important;
+}
+.error{
+    position: relative;
+
+    svg{
+        position: absolute;
+        top: 10px;
+        right: 6px;
+        color: transparent;
+    }
+}
