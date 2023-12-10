@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import './Home.scss'
 
+
 const Home = () => {
   const [wish, setwish] = useState();
 
@@ -10,6 +11,7 @@ const Home = () => {
   }
   return (
     <>
+ 
     <h1>Our home page </h1>
     <div className="box">
       <br />

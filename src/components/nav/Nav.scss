@@ -1,0 +1,47 @@
+nav{
+    background-color: aquamarine;
+    width: 100%;
+    padding: 10px 0px;
+    .nav-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo{
+            a{
+                font-size: 22px;
+                text-transform: uppercase;
+                letter-spacing: 1.5px;
+                margin: 0;
+                text-decoration: none;
+                color: black;
+                font-weight: 600;
+            }
+        }
+        .nav-menu{
+            ul{
+                display: flex;
+                column-gap: 20px;
+                align-items: center;
+                margin: 0;
+
+                li{
+                    list-style: none;
+                    cursor: pointer;
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        font-weight: 500;
+                        letter-spacing: 1.2px;
+                        transition: 0.3s all ease-in-out;
+                        &:hover{
+                            color: rgb(122, 121, 121);
+                        }
+                    }
+
+                }
+
+            }
+        }
+    }
+}
