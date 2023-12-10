@@ -1,32 +1,20 @@
 
 import { useState } from 'react'
 import './Home.scss'
+import { Link } from 'react-router-dom'
 
 
 const Home = () => {
-  const [wish, setwish] = useState();
 
-  const wishHeandler = (e) => {
-    setwish(() =>e.target.value)
-  }
   return (
     <>
  
-    <h1>Our home page </h1>
-    <div className="box">
-      <br />
-      <br />
-      <div className="input">
-        <label htmlFor="">Type your wish</label> <br />
-        <input type="text" name="wish" onChange={wishHeandler} />
-
-        <br />
-        <button className='btn btn-primary'>hello</button>
-        <br />
-        <br />
-        <br />
-        <h1>{wish}</h1>
-      </div>
+    <div className="container home-con">
+      <ul>
+        <li><Link to="/facebookauth">facebook</Link></li>
+        <li><Link to="/twitterauth">twitter</Link></li>
+        <li><Link to="/instagramauth">instagram</Link></li>
+      </ul>
     </div>
 
     </>

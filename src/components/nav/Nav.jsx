@@ -1,8 +1,9 @@
 
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import './Nav.scss';
 
 const Nav = () => {
+    const location = useLocation();
   return (
     <>
         <nav>
@@ -13,10 +14,10 @@ const Nav = () => {
                 <div className="nav-menu">
 
                     <ul>
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/facebookauth">facebook-auth</Link></li>
-                        <li><Link to="">Twitter-auth</Link></li>
-                        <li><Link to="/instagramauth">Instagram-auth</Link></li>
+                        <li><Link to="/" className={location.pathname ==="/" ? "active":""} >Home</Link></li>
+                        <li><Link to="/facebookauth" className={location.pathname ==="/facebookauth" ? "active":""} >facebook-auth</Link></li>
+                        <li><Link to="/twitterauth" className={location.pathname ==="/twitterauth" ? "active":""} >Twitter-auth</Link></li>
+                        <li ><Link to="/instagramauth" className={location.pathname ==="/instagramauth" ? "active":""} >Instagram-auth</Link></li>
                     </ul>
 
                 </div>

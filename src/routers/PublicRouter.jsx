@@ -4,6 +4,7 @@ import Blog from "../pages/blog/Blog";
 import Home from "../pages/home/Home";
 import InstagramAuth from "../pages/instagramAuth/InstagramAuth"
 import Layouts from "../components/layout/Layout";
+import TwitterAuth from "../pages/twitterauth/twitterAuth";
 
 
 const publicRouter =[
@@ -26,6 +27,10 @@ const publicRouter =[
             {
                 path: "/instagramauth",
                 element: <InstagramAuth/>
+            },
+            {
+                path: "/twitterauth",
+                element: <TwitterAuth/>
             },
         
         ]

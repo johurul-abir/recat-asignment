@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+.twitter{
+    padding: 50px 0px;
+    height: 80vh;
+    .tw-cotainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 40px;
+        height: 80vh;
+        .tw_left{
+            width: 50%;
+            svg{
+                font-size: 350px;
+            }
+        }
+
+        .tw_right{
+            padding: 20px;
+            width: 44%;
+           
+
+            .right-box{
+                display: flex;
+                flex-direction: column;
+                row-gap: 10px;
+                h1{
+                    font-family: 'Archivo Black', sans-serif;
+                    font-size: 60px;
+                    font-weight: 800;
+                    letter-spacing: 1.3px;
+                    padding-bottom: 40px;
+                }
+                h4{
+                    font-size: 35px;
+                    font-weight: 700;
+                    padding-bottom: 25px;
+                }
+                button{
+                    border: 1px solid #dadce0;
+                    width: 300px;
+                    padding: 10px 3px;
+                    border-radius: 30px;
+                    background-color: #fff;
+                    transition: 0.3s all ease-in-out;
+                    &:hover{
+                        background-color: #F1F2F7;
+                    }
+                    a{
+                       text-decoration: none;
+                       font-weight: 500; 
+                       color: #3c4043;
+                    }
+                }
+                .apple-btn{
+                    a{
+                        color: black;
+                        font-size: 19px;
+                    }
+                    svg{
+                        font-size: 25px;
+                    }
+
+                }
+                .create-acc{
+                    background-color: rgb(29, 155, 240);
+                    color:white;
+                    font-weight: 500;
+
+                    &:hover{
+                        background-color: #1A8CD8;
+                    }
+                    a{
+                        
+                    }
+                }
+                
+                .divider{
+                    display: flex;
+                    flex-wrap: nowrap;
+                    column-gap: 15px;
+                    align-items: center;
+
+                    .d{
+                        height: 1px;
+                        width: 126px;
+                        background-color: #e6eaec;
+                    }
+                }
+                p{
+                    font-size: 11px;
+                    width: 310px;
+                    a{
+                        text-decoration: none;
+                    }
+                }
+
+                h5{
+                    font-size: 16px;
+                }
+                .sing-btn{
+                    color: #1A8CD8;
+                    font-weight: 800;
+                    letter-spacing: 1.2px;
+                    &:hover{
+                        background-color: #E8F5FD;
+                    }
+                }
+            }
+        }
+    }
+}

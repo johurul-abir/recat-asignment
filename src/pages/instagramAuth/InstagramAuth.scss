@@ -3,7 +3,7 @@
     height: 100vh;
     display: block;
     margin: auto;
-    padding: 80px 0px;
+    padding: 50px 0px;
 
     .container{
         width: 820px;
@@ -54,6 +54,9 @@
 
                             &::placeholder{
                                 font-size: 12px;
+                            }
+                            &:focus{
+                                outline: none;
                             }
                         }
                         .login-btn{
