@@ -26,7 +26,8 @@ const Auth = () => {
     }
   )
 
-  
+  //custom gender show state
+  const [custom, setCustom] = useState(false)
 
   //heandler input
   const heandleInput = (e)=> {
@@ -89,7 +90,14 @@ const hendlFocus = (e)=>{
     (a, i) => new Date().getFullYear() -i
     );
   
+   //custom gender show
+
+   const heandlCustom = () =>{
+
+    setCustom(()=>  true)
+   }
     
+
   return (
     <>
     
@@ -203,13 +211,30 @@ const hendlFocus = (e)=>{
                     <div className="gender-item">
                       <label>
                         <span>Custom</span> 
-                        <input type="radio" name='gender' value="custom" onChange={heandleInput}/>
+                        <input type="radio" name='gender' value="custom" onChange={heandleInput} onClick={heandlCustom}/>
                       </label>
                     </div>
-
                    
-
                   </div>
+
+                  {
+                    custom && (
+                      <div className="custom-dropdown">
+                      <select name="custom-gender" className='custom-gender' >
+                        <option value="Select your pronoune">Select your pronoune </option>
+                        <option value="She:'Wish her a happy birthday'">She:"Wish her a happy birthday"</option>
+
+                        <option value='He:"Wish him a happy birthday"'>He:"Wish him a happy birthday"</option>
+                        
+                        <option value='They:"Wish them a happy birthday"'>They:"Wish them a happy birthday"</option>
+                      </select>
+
+                      <p>Your pronoun is visible to everyone.</p>
+                      <input type="text" name='customoption' placeholder='Gender(optional)' />
+                  </div>
+                    )
+                  }
+                  
                 </div>
               
               <div className="form-paragraph">
