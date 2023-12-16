@@ -5,6 +5,7 @@ import Home from "../pages/home/Home";
 import InstagramAuth from "../pages/instagramAuth/InstagramAuth"
 import Layouts from "../components/layout/Layout";
 import TwitterAuth from "../pages/twitterauth/twitterAuth";
+import Course from "../pages/Course/Course";
 
 
 const publicRouter =[
@@ -31,6 +32,10 @@ const publicRouter =[
             {
                 path: "/twitterauth",
                 element: <TwitterAuth/>
+            },
+            {
+                path: "/addmission",
+                element: <Course/>
             },
         
         ]

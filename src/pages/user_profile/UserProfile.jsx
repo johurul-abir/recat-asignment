@@ -3,7 +3,9 @@
 
 const UserProfile = () => {
   return (
-    <div>UserProfile</div>
+    <>
+    <h1>User profile</h1>
+    </>
   )
 }
 

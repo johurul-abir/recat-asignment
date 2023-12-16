@@ -15,9 +15,14 @@ const Nav = () => {
 
                     <ul>
                         <li><Link to="/" className={location.pathname ==="/" ? "active":""} >Home</Link></li>
+
                         <li><Link to="/facebookauth" className={location.pathname ==="/facebookauth" ? "active":""} >facebook-auth</Link></li>
+
                         <li><Link to="/twitterauth" className={location.pathname ==="/twitterauth" ? "active":""} >Twitter-auth</Link></li>
+
                         <li ><Link to="/instagramauth" className={location.pathname ==="/instagramauth" ? "active":""} >Instagram-auth</Link></li>
+
+                        <li ><Link to="/addmission" className={location.pathname ==="/addmission" ? "active":""} >Addmission</Link></li>
                     </ul>
 
                 </div>

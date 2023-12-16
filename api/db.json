@@ -1,0 +1,48 @@
+{
+  "students": [
+    {
+      "name": "johurul islma",
+      "fathers name": "tara mia",
+      "mothers name": "Johura begum",
+      "gender": "mail",
+      "age": "16",
+      "location": "mirpur",
+      "class": "Ten",
+      "roll": "12",
+      "id": 1
+    },
+    {
+      "name": "Asma Akter",
+      "fathers name": "Joinal mia",
+      "mothers name": "Khaleda begum",
+      "gender": "Femail",
+      "age": "19",
+      "location": "Badda",
+      "class": "hsc 1st year",
+      "roll": "1",
+      "id": 2
+    },
+    {
+      "name": "Sakib Akter",
+      "fathers name": "jobbar mia",
+      "mothers name": "sajeda begum",
+      "gender": "mail",
+      "age": "20",
+      "location": "dhanmondi",
+      "class": "hsc 2nd year",
+      "roll": "3",
+      "id": 3
+    },
+    {
+      "name": "Tania akter",
+      "fathers name": "ali ahsan",
+      "mothers name": "Rani",
+      "gender": "Femail",
+      "age": "12",
+      "location": "Mirpur",
+      "class": "seven",
+      "roll": "5",
+      "id": 4
+    }
+  ]
+}
