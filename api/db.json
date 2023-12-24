@@ -9,6 +9,7 @@
       "location": "mirpur",
       "class": "Ten",
       "roll": "12",
+      "photo": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?cs=srgb&dl=pexels-italo-melo-2379004.jpg&fm=jpg",
       "id": 1
     },
     {
@@ -20,6 +21,7 @@
       "location": "Badda",
       "class": "hsc 1st year",
       "roll": "1",
+      "photo": "https://img.freepik.com/free-photo/handsome-bearded-guy-posing-against-white-wall_273609-20597.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1702684800&semt=sph",
       "id": 2
     },
     {
@@ -31,6 +33,7 @@
       "location": "dhanmondi",
       "class": "hsc 2nd year",
       "roll": "3",
+      "photo": "https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg",
       "id": 3
     },
     {
@@ -42,6 +45,80 @@
       "location": "Mirpur",
       "class": "seven",
       "roll": "5",
+      "photo": "https://www.realmenrealstyle.com/wp-content/uploads/2023/07/Glasses-for-Oval-shape.jpg",
+      "id": 4
+    },
+    {
+      "name": "Jubayer",
+      "fathers name": "kamrul",
+      "mothers name": "kobita",
+      "gender": "mail",
+      "age": "13",
+      "location": "Mirpur",
+      "class": "seven",
+      "roll": "5",
+      "photo": "https://images.unsplash.com/photo-1557862921-37829c790f19?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWFufGVufDB8fDB8fHww",
+      "id": 5
+    },
+    {
+      "name": "Mukta",
+      "fathers name": "tara mia",
+      "mothers name": "Johura begum",
+      "gender": "Femail",
+      "age": "16",
+      "location": "mirpur",
+      "class": "Nine",
+      "roll": "10",
+      "photo": "https://images.pexels.com/photos/1391495/pexels-photo-1391495.jpeg?cs=srgb&dl=pexels-tu%E1%BA%A5n-ki%E1%BB%87t-jr-1391495.jpg&fm=jpg",
+      "id": 6
+    }
+  ],
+  "devs": [
+    {
+      "name": "jesmin akter",
+      "location": "islampur",
+      "skill": "laravel devs",
+      "photo": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "id": 4
+    },
+    {
+      "name": "Nodi islam",
+      "location": "Dhaka",
+      "skill": "wp devs",
+      "photo": "https://images.unsplash.com/photo-1546961329-78bef0414d7c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "id": 5
+    },
+    {
+      "name": "Jonki",
+      "location": "Savar",
+      "skill": "js devs",
+      "photo": "https://images.unsplash.com/photo-1623091411395-09e79fdbfcf3?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aW5kaWFuJTIwZ2lybHxlbnwwfHwwfHx8MA%3D%3D",
+      "id": 6
+    },
+    {
+      "name": "Johurul islam",
+      "location": "landon",
+      "skill": "MERN",
+      "photo": "https://img.freepik.com/free-photo/handsome-bearded-guy-posing-against-white-wall_273609-20597.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1702944000&semt=sph",
+      "id": 7
+    },
+    {
+      "name": "jakir ",
+      "location": "Baridhara",
+      "skill": "ios devs",
+      "photo": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "id": 8
+    }
+  ],
+  "linkedinposts": [
+    {
+      "post": "Six candidates -- GM Quader from JP, independent candidate Anwara Islam Rani, Shahidul Islam of Jatiya Samajtantrik Dal (Jasad), Abdur Rahman Rezu of Bangladesh Supreme Party, Ekramul Haque of Bangladesh Congress and Shafiul Alam of Bangladesh People Party – are contesting the polls from Rangpur-3.",
+      "photo": "https://th.bing.com/th/id/OIG.ey_KYrwhZnirAkSgDhmg",
+      "id": 3
+    },
+    {
+      "post": "Six candidates -- GM Quader from JP, independent candidate Anwara Islam Rani, Shahidul Islam of Jatiya Samajtantrik Dal (Jasad), Abdur Rahman Rezu of Bangladesh Supreme Party, Ekramul Haque of Bangladesh ",
+      "photo": "https://imgupscaler.com/images/samples/animal-after.webp",
       "id": 4
     }
   ]

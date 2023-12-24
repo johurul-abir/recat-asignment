@@ -1,7 +1,7 @@
 
 .home-con{
     width: 700px;
-    padding: 200px 0px;
+    padding: 100px 0px 0px 0px;
     ul{
         display: flex;
         justify-content: center;
@@ -28,4 +28,11 @@
             
         }
     }
+}
+
+.user-photo{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 4px;
 }

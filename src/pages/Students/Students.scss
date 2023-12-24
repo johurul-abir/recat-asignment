@@ -1,0 +1,41 @@
+.students{
+    width: 100%;
+ .student-area{
+    display: flex;
+    column-gap: 1%;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    h2{
+        padding: 50px 0px 20px 0px;
+
+    }
+    img{
+        width: 100%;
+        border: 1px solid #1D9BF0;
+        border-radius: 10px;
+        height: 250px;
+        object-fit: cover;
+    }
+    h4{
+        padding-top: 10px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .class-roll{
+        display: flex;
+        justify-content: space-between;
+    }
+    .location-school{
+        padding: 10px;
+        background-color: azure;
+        border-radius: 10px;
+        p{
+            margin: 0px;
+            padding-bottom: 5px;
+        }
+    }
+    .student-loop{
+        width: 24%;
+    }
+ }
+}

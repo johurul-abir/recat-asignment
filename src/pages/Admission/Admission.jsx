@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "./Course.scss";
+import "./Admission.scss";
 import { MdCancel } from "react-icons/md";
-const Course = () => {
+const Admission = () => {
   //photo manage useState
   const [photo, setPhoto] = useState([]);
 
@@ -42,9 +42,11 @@ const Course = () => {
     
   };
 
+  
+
   return (
     <>
-      <div className="course">
+      <div className="admission-form">
         <div className="container">
           <div className="row justify-content-center my-5">
             <div className="col-md-6">
@@ -150,4 +152,4 @@ const Course = () => {
   );
 };
 
-export default Course;
+export default Admission;

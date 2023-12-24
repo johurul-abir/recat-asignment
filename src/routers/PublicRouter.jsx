@@ -5,7 +5,11 @@ import Home from "../pages/home/Home";
 import InstagramAuth from "../pages/instagramAuth/InstagramAuth"
 import Layouts from "../components/layout/Layout";
 import TwitterAuth from "../pages/twitterauth/twitterAuth";
-import Course from "../pages/Course/Course";
+import Admission from "../pages/Admission/Admission";
+import Students from "../pages/Students/Students";
+import  Form from "../pages/Form/Form"
+import AddDevs from "../pages/addDevs/AddDevs";
+import Linkedin from "../pages/linkedinhome/Linkedin";
 
 
 const publicRouter =[
@@ -35,8 +39,24 @@ const publicRouter =[
             },
             {
                 path: "/addmission",
-                element: <Course/>
+                element: <Admission/>
             },
+            {
+                path: "/students",
+                element: <Students/>
+            },
+            {
+                path: "/form",
+                element: <Form/>
+            },
+            {
+                path: "/adddevs",
+                element: <AddDevs/>
+            },
+            {
+                path:"/linkedin",
+                element: <Linkedin/>
+            }
         
         ]
     }

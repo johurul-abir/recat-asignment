@@ -23,6 +23,11 @@ const Nav = () => {
                         <li ><Link to="/instagramauth" className={location.pathname ==="/instagramauth" ? "active":""} >Instagram-auth</Link></li>
 
                         <li ><Link to="/addmission" className={location.pathname ==="/addmission" ? "active":""} >Addmission</Link></li>
+
+                        <li ><Link to="/students" className={location.pathname ==="/students" ? "active":""} >Students</Link></li>
+
+                        <li ><Link to="/form" className={location.pathname ==="/form" ? "active":""} >Form</Link></li>
+                        <li ><Link to="/linkedin" className={location.pathname ==="/linkedin" ? "active":""} >LinkedIn</Link></li>
                     </ul>
 
                 </div>
